@@ -45,8 +45,7 @@ https://github.com/anuraghazra/github-readme-stats
 ### Survey repository, including files RedCap format
 This is a list of surveys that use questions from the bank below. Each link has a short desciption of the goal and purpose of the survey.
 
-* [KUMC version 1 files](http:// "Link to question bank files") (link pending) The purpose is to drive a positive deviance improvement project of workforce wellbeig across work units or organizations. This survey measures thriving, engagement, job satistifaction, and burnout. In addition, the survey measures theory-based antecedents, including management tactics. The result is to: 1) identify positive deviants and 2) specific management tactics independently associated with positive wellbeing. As an example, one impleentation of this survey found that the work units with the highest wellbeing reported the highest rate of learning from colleagues at work. 
-
+* [KUMC version 1 files](http:// "Link to question bank files") (link pending) The purpose is to drive a positive deviance improvement project of workforce wellbeig across work units or organizations. This survey measures thriving, engagement, job satistifaction, and burnout. In addition, the survey measures theory-based antecedents, including management tactics. The result is to: 1) identify positive deviants and 2) specific management tactics independently associated with positive wellbeing. As an example, one impleentation of this survey found that the work units with the highest wellbeing reported the highest rate of learning from colleagues at work. Thus, subsequent qualitative work forcused on interviews to characterize how peer learning was achieved in the local contect of the improvement project.
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=openMetaAnalysis&repo=Hypertonic-Saline-for-Bronchiolitis)](https://github.com/openMetaAnalysis/Hypertonic-Saline-for-Bronchiolitis)
 
