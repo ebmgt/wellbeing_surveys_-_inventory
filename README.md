@@ -62,16 +62,35 @@ This is a list of surveys that use questions from the bank below. Each link has 
     * States
       * Asks: engagement, satisfaction, burnout, learning/improvement/growth
       * Does not ask: none
+  * Immediate antecedents
+      * Autonomy
+      * Mastery
+      * Purpose
+      * Resources/demands 
+         * EHR
+      * Learning/improvement/growth
 * [NIOSH Worker Well-Being Questionnaire (WellBQ)](https://www.cdc.gov/niosh/twh/wellbq)
     * States
       * Asks: engagement and satisfaction
       * Does not ask: burnout or learning/improvement/growth
-    * Other:
-      * Does not ask: electronic health records
+  * Immediate antecedents
+      * Autonomy
+      * Mastery
+      * Purpose
+      * Resources/demands 
+         * EHR: does not ask
+      * Learning/improvement/growth
 * [AHRQ Surveys on Patient Safety Culture (SOPS)](https://www.ahrq.gov/sops/surveys/)
     * States
       * Asks: none
       * Does not ask: engagement, satisfaction, burnout, or learning/improvement
+  * Immediate antecedents
+      * Autonomy
+      * Mastery
+      * Purpose
+      * Resources/demands 
+         * EHR
+      * Learning/improvement/growth
 
 ### Question bank
 This is a list of questions that are non-propietary, along with annotations indicating the location in the frameworks above. Your surveys can be hosted here, or elsewhere, with a link and description to your survey from here.
