@@ -97,4 +97,11 @@ This is a list of questions that are non-propietary, along with annotations indi
 
 These questions can be added to surveys.
 
-* [Files](http:// "Link to question bank files") (link pending) 
+* [Files](http:// "Link to question bank files") (link pending)
+
+## References
+
+1. van Saane N. Reliability and validity of instruments measuring job satisfaction--a systematic review. Occupational Medicine. 2003. Available from: https://academic.oup.com/occmed/article-lookup/doi/10.1093/occmed/kqg038
+2. Nortje A. 7 Best Job Satisfaction Scales, Questionnaires & Surveys [Internet]. PositivePsychology.com. 2021 [cited 2022 Oct 16]. Available from: https://positivepsychology.com/job-satisfaction-questionnaires-surveys/
+
+
