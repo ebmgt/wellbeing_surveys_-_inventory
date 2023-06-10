@@ -1,4 +1,4 @@
-# Wellbeing surveys - open respository
+# Wellbeing surveys - inventory
 
 Short url: http://ebmgt.github.io/survey-repository
 
