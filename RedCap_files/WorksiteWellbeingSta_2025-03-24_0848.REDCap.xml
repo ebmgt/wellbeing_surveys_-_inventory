@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Worksite (well-being, states and immediate antecedents) - template V2025-03" AsOfDateTime="2025-03-24T08:48:15" CreationDateTime="2025-03-24T08:48:15" SourceSystem="REDCap" SourceSystemVersion="14.0.43">
+<Study OID="Project.WorksiteWellbeingStatesAndImme">
+<GlobalVariables>
+	<StudyName>Worksite (well-being, states and immediate antecedents) - template V2025-03</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Worksite (well-being, states and immediate antecedents) - template V2025-03".</StudyDescription>
+	<ProtocolName>Worksite (well-being, states and immediate antecedents) - template V2025-03</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>3</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="our_worksite_states_and_immediate_antecedents" title="Our work site" instructions="&lt;p&gt;Dear Colleague&lt;/p&gt;
+&lt;p&gt;As colleagues in our organization, we are contacting you to complete this survey to help the function of our clinic.&lt;/p&gt;
+&lt;p&gt;Participation will take about 5 minutes. No identifiable information will be collected about you, and the survey is anonymous. The survey is below&lt;/p&gt;
+&lt;p&gt;There are no personal benefits or risks to participating in this study. Participation is voluntary, and you can stop taking the survey at any time.&lt;/p&gt;
+&lt;p&gt;If you have any questions, please contact rbadgett@kumc.edu&lt;/p&gt;
+&lt;!--For questions about the rights of research participants, you may contact the KUMC Institutional Review Board (IRB) at (913) 588-1240 or humansubjects@kumc.edu--&gt;
+&lt;p&gt;Thank you for your time,&lt;/p&gt;
+&lt;p&gt;contact name goes here @kumc.edu&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;" offline_instructions="" acknowledgement="" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="1" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="https://www.ted.com/talks/dan_pink_the_puzzle_of_motivation?language=en" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="AFTER_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="Engagement, burnout, thriving, satisfied - all" unique_report_name="R-1859Y7E4PL" report_order="1" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="position" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="mrn,proactive,job,enthusiasm,time,gss_satisfaction,current_burnout" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="e2519870dda5d17abfb056d835fa5f5ef6c85d8b"/>
+		<redcap:Reports title="Engagement, burnout, thriving, satisfied - non-physicians" unique_report_name="R-769T3MLAKK" report_order="2" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([position] = &quot;1&quot; OR [position] = &quot;4&quot; OR [position] = &quot;5&quot;)" filter_type="EVENT" dynamic_filter1="position" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([position] = &quot;1&quot; OR [position] = &quot;4&quot; OR [position] = &quot;5&quot;)" redcap_reports_fields="mrn,proactive,job,enthusiasm,time,gss_satisfaction,current_burnout" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="73efe2b811fefb7b2196fdd02964ed97c78a26b3"/>
+		<redcap:Reports title="Finances" unique_report_name="R-462XXP9788" report_order="3" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="position" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="gss_satisfaction,current_burnout" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="293db6634be1582bae74ec2454f59eca01f3feee"/>
+		<redcap:Reports title="Finances (details)" unique_report_name="R-751WDTDN7W" report_order="4" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="position" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="gss_satisfaction,current_burnout,practitioner,position" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="b9c0edb5c4a534f77ee8b3dc08ffdd51cd94e058"/>
+		<redcap:Reports title="Description of respondents" unique_report_name="R-691CWHYC8L" report_order="5" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="mrn,clinic,practitioner,position" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="47596b7918078170f4bee791fefb7400853245e4"/>
+		<redcap:Reports title="Intention-based leadership - non-physicians" unique_report_name="R-612M7TPYRL" report_order="6" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([position] = &quot;1&quot; OR [position] = &quot;4&quot; OR [position] = &quot;5&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([position] = &quot;1&quot; OR [position] = &quot;4&quot; OR [position] = &quot;5&quot;)" redcap_reports_fields="mrn,empower_ideas,empower_involved,authorities,authorities_info_need" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="88d23593c845449c52c2af2004c4dda657e169e0"/>
+		<redcap:Reports title="Intention-based leadership - physicians" unique_report_name="R-842X9P9KEL" report_order="7" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([position] = &quot;2&quot; OR [position] = &quot;3&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([position] = &quot;2&quot; OR [position] = &quot;3&quot;)" redcap_reports_fields="mrn,empower_ideas,empower_involved,authorities,authorities_info_need,position" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="e12440dac5a4df1f3ea00eee24274c7d3a248c22"/>
+		<redcap:Reports title="Respondents - positions" unique_report_name="R-139CRTYXC7" report_order="8" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="mrn" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="mrn,position,practitioner" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="a0fd104619e705e191ca0cce867e1ff190736c46"/>
+	</redcap:ReportsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.WorksiteWellbeingStatesAndImme_2025-03-24_0848" Name="Worksite (well-being, states and immediate antecedents) - template V2025-03" redcap:RecordIdField="mrn">
+	<FormDef OID="Form.our_worksite_states_and_immediate_antecedents" Name="Our worksite (states and immediate antecedents)" Repeating="No" redcap:FormName="our_worksite_states_and_immediate_antecedents">
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.mrn" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.current_burnout" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.workplace_specifics" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.leykum_learning_from_peers" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.baldrige_learning_from_employer" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.ahrq_sops_respect" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.ahrq_sops_care" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.google_manager_recommend" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.google_manager_stretch" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.authorities" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.authorities_info_need" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.gender" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.face_to_face" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="our_worksite_states_and_immediate_antecedents.our_worksite_states_and_immediate_antecedents_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.mrn" Name="Our worksite (states and immediate antecedents)" Repeating="No">
+		<ItemRef ItemOID="mrn" Mandatory="Yes" redcap:Variable="mrn"/>
+		<ItemRef ItemOID="sources" Mandatory="No" redcap:Variable="sources"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.current_burnout" Name="1. Please answer the following questions about yourself at work over the last 12 months" Repeating="No">
+		<ItemRef ItemOID="current_burnout" Mandatory="No" redcap:Variable="current_burnout"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.workplace_specifics" Name="Our worksite (states and immediate antecedents)" Repeating="No">
+		<ItemRef ItemOID="workplace_specifics" Mandatory="No" redcap:Variable="workplace_specifics"/>
+		<ItemRef ItemOID="burnout_siboq" Mandatory="No" redcap:Variable="burnout_siboq"/>
+		<ItemRef ItemOID="job" Mandatory="No" redcap:Variable="job"/>
+		<ItemRef ItemOID="enthusiasm" Mandatory="No" redcap:Variable="enthusiasm"/>
+		<ItemRef ItemOID="time" Mandatory="No" redcap:Variable="time"/>
+		<ItemRef ItemOID="gss_satisfaction" Mandatory="No" redcap:Variable="gss_satisfaction"/>
+		<ItemRef ItemOID="proactive" Mandatory="No" redcap:Variable="proactive"/>
+		<ItemRef ItemOID="recommend_employer" Mandatory="No" redcap:Variable="recommend_employer"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.leykum_learning_from_peers" Name="2. Please answer the following questions about you and your work over the last 12 months" Repeating="No">
+		<ItemRef ItemOID="leykum_learning_from_peers" Mandatory="No" redcap:Variable="leykum_learning_from_peers"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.baldrige_learning_from_employer" Name="Our worksite (states and immediate antecedents)" Repeating="No">
+		<ItemRef ItemOID="baldrige_learning_from_employer" Mandatory="No" redcap:Variable="baldrige_learning_from_employer"/>
+		<ItemRef ItemOID="ahrq_sops_onboard_training" Mandatory="No" redcap:Variable="ahrq_sops_onboard_training"/>
+		<ItemRef ItemOID="ahrq_sops_prn_training" Mandatory="No" redcap:Variable="ahrq_sops_prn_training"/>
+		<ItemRef ItemOID="bradley_external" Mandatory="No" redcap:Variable="bradley_external"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.ahrq_sops_respect" Name=" " Repeating="No">
+		<ItemRef ItemOID="ahrq_sops_respect" Mandatory="No" redcap:Variable="ahrq_sops_respect"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.ahrq_sops_care" Name="Our worksite (states and immediate antecedents)" Repeating="No">
+		<ItemRef ItemOID="ahrq_sops_care" Mandatory="No" redcap:Variable="ahrq_sops_care"/>
+		<ItemRef ItemOID="ahrq_sops_help" Mandatory="No" redcap:Variable="ahrq_sops_help"/>
+		<ItemRef ItemOID="empower_ideas" Mandatory="No" redcap:Variable="empower_ideas"/>
+		<ItemRef ItemOID="empower_involved" Mandatory="No" redcap:Variable="empower_involved"/>
+		<ItemRef ItemOID="empower_tryout" Mandatory="No" redcap:Variable="empower_tryout"/>
+		<ItemRef ItemOID="ahrq_sops_alternatives" Mandatory="No" redcap:Variable="ahrq_sops_alternatives"/>
+		<ItemRef ItemOID="ahrs_sops_staff" Mandatory="No" redcap:Variable="ahrs_sops_staff"/>
+		<ItemRef ItemOID="ahrs_sops_workflow" Mandatory="No" redcap:Variable="ahrs_sops_workflow"/>
+		<ItemRef ItemOID="delivery_of_care" Mandatory="No" redcap:Variable="delivery_of_care"/>
+		<ItemRef ItemOID="meaningful" Mandatory="No" redcap:Variable="meaningful"/>
+		<ItemRef ItemOID="management_well_being" Mandatory="No" redcap:Variable="management_well_being"/>
+		<ItemRef ItemOID="management_communication" Mandatory="No" redcap:Variable="management_communication"/>
+		<ItemRef ItemOID="gss_rincblls" Mandatory="No" redcap:Variable="gss_rincblls"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.google_manager_recommend" Name="3. About your manager (this section taken directly from Google - feel free to comment or propose drop/add questions) If we use this, we need to verify we are using this for non-profit uses." Repeating="No">
+		<ItemRef ItemOID="google_manager_recommend" Mandatory="No" redcap:Variable="google_manager_recommend"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.google_manager_stretch" Name="Our worksite (states and immediate antecedents)" Repeating="No">
+		<ItemRef ItemOID="google_manager_stretch" Mandatory="No" redcap:Variable="google_manager_stretch"/>
+		<ItemRef ItemOID="google_manager_clear" Mandatory="No" redcap:Variable="google_manager_clear"/>
+		<ItemRef ItemOID="google_manager" Mandatory="No" redcap:Variable="google_manager"/>
+		<ItemRef ItemOID="google_manager_autonomy" Mandatory="No" redcap:Variable="google_manager_autonomy"/>
+		<ItemRef ItemOID="google_manager_consideration" Mandatory="No" redcap:Variable="google_manager_consideration"/>
+		<ItemRef ItemOID="google_manager_priorities" Mandatory="No" redcap:Variable="google_manager_priorities"/>
+		<ItemRef ItemOID="google_manager_shares" Mandatory="No" redcap:Variable="google_manager_shares"/>
+		<ItemRef ItemOID="google_manager_career" Mandatory="No" redcap:Variable="google_manager_career"/>
+		<ItemRef ItemOID="google_manager_exert" Mandatory="No" redcap:Variable="google_manager_exert"/>
+		<ItemRef ItemOID="google_manager_voice" Mandatory="No" redcap:Variable="google_manager_voice"/>
+		<ItemRef ItemOID="google_manager_decisions" Mandatory="No" redcap:Variable="google_manager_decisions"/>
+		<ItemRef ItemOID="google_manager_collaborates" Mandatory="No" redcap:Variable="google_manager_collaborates"/>
+		<ItemRef ItemOID="google_manager_comment_keep" Mandatory="No" redcap:Variable="google_manager_comment_keep"/>
+		<ItemRef ItemOID="google_manager_comment_change" Mandatory="No" redcap:Variable="google_manager_comment_change"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.authorities" Name="4 Would you like more control over your work?" Repeating="No">
+		<ItemRef ItemOID="authorities" Mandatory="No" redcap:Variable="authorities"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.authorities_info_need" Name="Our worksite (states and immediate antecedents)" Repeating="No">
+		<ItemRef ItemOID="authorities_info_need" Mandatory="No" redcap:Variable="authorities_info_need"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.gender" Name="Please tell us about yourself:" Repeating="No">
+		<ItemRef ItemOID="gender" Mandatory="No" redcap:Variable="gender"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.face_to_face" Name="Our worksite (states and immediate antecedents)" Repeating="No">
+		<ItemRef ItemOID="face_to_face" Mandatory="No" redcap:Variable="face_to_face"/>
+		<ItemRef ItemOID="practitioner" Mandatory="No" redcap:Variable="practitioner"/>
+		<ItemRef ItemOID="clinic" Mandatory="No" redcap:Variable="clinic"/>
+		<ItemRef ItemOID="position" Mandatory="No" redcap:Variable="position"/>
+		<ItemRef ItemOID="other_site" Mandatory="No" redcap:Variable="other_site"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="our_worksite_states_and_immediate_antecedents.our_worksite_states_and_immediate_antecedents_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="our_worksite_states_and_immediate_antecedents_complete" Mandatory="No" redcap:Variable="our_worksite_states_and_immediate_antecedents_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="mrn" Name="mrn" DataType="integer" Length="999" redcap:Variable="mrn" redcap:FieldType="text" redcap:TextValidationType="int" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Survey number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sources" Name="sources" DataType="text" Length="999" redcap:Variable="sources" redcap:FieldType="descriptive">
+		<Question><TranslatedText>Survey sources (this field is not displayed on the survey)
+
+Section 1. Workforce states NHS Staff Surveys: See &#039;Core Questionnaire at https://www.nhsstaffsurveys.com/survey-documents/  Engagement questions benchmarks  American Psychiatric Association (APA) at https://www.apa.org/topics/workplace   Engagement questions benchmarks  Thriving  Porath and Spreitzer, 2012 (permission required) Leykum, 2011   Proactive  FEVS Fuller, 2006 (permission required)  General Social Survey (University of Chicago) at https://gss.norc.org/Pages/quality-of-worklife.aspx  Work satisfaction benchmarks  Section 2. Antecedents  AHRQ SOPS - https://www.ahrq.gov/sops/ Various original studies  Section3, managers  https://rework.withgoogle.com/en/guides/managers-give-feedback-to-managers#have-managers-share-feedback-with-the-team (Terms of usage link) </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Survey sources (this field is not displayed on the survey)&lt;br&gt;&lt;br&gt;Section 1. Workforce states&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;NHS Staff Surveys: See &#039;Core Questionnaire at &lt;a href=&quot;https://www.nhsstaffsurveys.com/survey-documents/&quot;&gt;https://www.nhsstaffsurveys.com/survey-documents/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Engagement questions benchmarks&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;American Psychiatric Association (APA) at &lt;a href=&quot;https://www.apa.org/topics/workplace&quot;&gt;https://www.apa.org/topics/workplace&lt;/a&gt; &lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Engagement questions benchmarks&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Thriving&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Porath and Spreitzer, 2012 (permission required)&lt;/span&gt;&lt;/li&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Leykum, 2011 &lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Proactive&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;FEVS&lt;/span&gt;&lt;/li&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Fuller, 2006 (permission required)&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;General Social Survey (University of Chicago) at &lt;a href=&quot;https://gss.norc.org/Pages/quality-of-worklife.aspx&quot;&gt;https://gss.norc.org/Pages/quality-of-worklife.aspx&lt;/a&gt;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Work satisfaction benchmarks&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Section 2. Antecedents&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;AHRQ SOPS - &lt;a href=&quot;https://www.ahrq.gov/sops/&quot;&gt;https://www.ahrq.gov/sops/&lt;/a&gt;&lt;/span&gt;&lt;/li&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Various original studies&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Section3, managers&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;a href=&quot;https://rework.withgoogle.com/en/guides/managers-give-feedback-to-managers#have-managers-share-feedback-with-the-team&quot;&gt;https://rework.withgoogle.com/en/guides/managers-give-feedback-to-managers#have-managers-share-feedback-with-the-team&lt;/a&gt; (&lt;a href=&quot;https://rework.withgoogle.com/en/terms/&quot;&gt;Terms of usage link&lt;/a&gt;)&lt;/span&gt;&lt;/li&gt; &lt;/ul&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="current_burnout" Name="current_burnout" DataType="text" Length="1" redcap:Variable="current_burnout" redcap:FieldType="radio" redcap:SectionHeader="1. Please answer the following questions about yourself at work over the last 12 months">
+		<Question><TranslatedText>Using your own definition of &quot;burnout,&quot; please choose one of the answers below.</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_burnout.choices"/>
+	</ItemDef>
+	<ItemDef OID="workplace_specifics" Name="workplace_specifics" DataType="text" Length="999" redcap:Variable="workplace_specifics" redcap:FieldType="textarea" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Please identify things with your workflow or institution that make you feel &quot;burned out&quot; or limit your ability to enjoy your work.</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="burnout_siboq" Name="burnout_siboq" DataType="text" Length="999" redcap:Variable="burnout_siboq" redcap:FieldType="textarea" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Please identify any protocols, adjustments, or interventions you or your institution has made to decrease your feeling of &quot;burnout&quot; if any.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Please identify any protocols, adjustments, or interventions you or your institution has made to &lt;/span&gt;&lt;em&gt;decrease&lt;/em&gt; &lt;span style=&quot;font-weight: normal;&quot;&gt;your feeling of &quot;burnout&quot; if any.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="job" Name="job" DataType="text" Length="1" redcap:Variable="job" redcap:FieldType="radio" redcap:MatrixGroupName="engagement">
+		<Question><TranslatedText>I look forward to going to work.</TranslatedText></Question>
+		<CodeListRef CodeListOID="job.choices"/>
+	</ItemDef>
+	<ItemDef OID="enthusiasm" Name="enthusiasm" DataType="text" Length="1" redcap:Variable="enthusiasm" redcap:FieldType="radio" redcap:MatrixGroupName="engagement">
+		<Question><TranslatedText>I am enthusiastic about my job.</TranslatedText></Question>
+		<CodeListRef CodeListOID="enthusiasm.choices"/>
+	</ItemDef>
+	<ItemDef OID="time" Name="time" DataType="text" Length="1" redcap:Variable="time" redcap:FieldType="radio" redcap:MatrixGroupName="engagement">
+		<Question><TranslatedText>Time passes quickly when I am working</TranslatedText></Question>
+		<CodeListRef CodeListOID="time.choices"/>
+	</ItemDef>
+	<ItemDef OID="gss_satisfaction" Name="gss_satisfaction" DataType="text" Length="1" redcap:Variable="gss_satisfaction" redcap:FieldType="radio">
+		<Question><TranslatedText>On the whole, how satisfied are you with the work you do?</TranslatedText></Question>
+		<CodeListRef CodeListOID="gss_satisfaction.choices"/>
+	</ItemDef>
+	<ItemDef OID="proactive" Name="proactive" DataType="text" Length="1" redcap:Variable="proactive" redcap:FieldType="radio" redcap:MatrixGroupName="proactive">
+		<Question><TranslatedText>I am constantly looking for ways to do my job better</TranslatedText></Question>
+		<CodeListRef CodeListOID="proactive.choices"/>
+	</ItemDef>
+	<ItemDef OID="recommend_employer" Name="recommend_employer" DataType="text" Length="1" redcap:Variable="recommend_employer" redcap:FieldType="radio" redcap:MatrixGroupName="proactive">
+		<Question><TranslatedText>I recommend my organization as a good place to work</TranslatedText></Question>
+		<CodeListRef CodeListOID="recommend_employer.choices"/>
+	</ItemDef>
+	<ItemDef OID="leykum_learning_from_peers" Name="leykum_learning_from_peers" DataType="text" Length="1" redcap:Variable="leykum_learning_from_peers" redcap:FieldType="radio" redcap:SectionHeader="2. Please answer the following questions about you and your work over the last 12 months" redcap:MatrixGroupName="learning">
+		<Question><TranslatedText>I am frequently taught new things by people I work with.</TranslatedText></Question>
+		<CodeListRef CodeListOID="leykum_learning_from_peers.choices"/>
+	</ItemDef>
+	<ItemDef OID="baldrige_learning_from_employer" Name="baldrige_learning_from_employer" DataType="text" Length="1" redcap:Variable="baldrige_learning_from_employer" redcap:FieldType="radio" redcap:MatrixGroupName="learning">
+		<Question><TranslatedText>I get all the important information I need to do my work.</TranslatedText></Question>
+		<CodeListRef CodeListOID="baldrige_learning_from_employer.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrq_sops_onboard_training" Name="ahrq_sops_onboard_training" DataType="text" Length="1" redcap:Variable="ahrq_sops_onboard_training" redcap:FieldType="radio" redcap:MatrixGroupName="learning">
+		<Question><TranslatedText>Our work site trains staff when new processes are put into place</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrq_sops_onboard_training.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrq_sops_prn_training" Name="ahrq_sops_prn_training" DataType="text" Length="1" redcap:Variable="ahrq_sops_prn_training" redcap:FieldType="radio" redcap:MatrixGroupName="learning">
+		<Question><TranslatedText>Our work site  makes sure staff get the on-the-job training they need</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrq_sops_prn_training.choices"/>
+	</ItemDef>
+	<ItemDef OID="bradley_external" Name="bradley_external" DataType="text" Length="1" redcap:Variable="bradley_external" redcap:FieldType="radio" redcap:MatrixGroupName="learning">
+		<Question><TranslatedText>My organization has frequent interactions with outside organizations (eg, other hospitals and professional associations) to acquire new knowledge on how to improve care.</TranslatedText></Question>
+		<CodeListRef CodeListOID="bradley_external.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrq_sops_respect" Name="ahrq_sops_respect" DataType="text" Length="1" redcap:Variable="ahrq_sops_respect" redcap:FieldType="radio" redcap:SectionHeader=" " redcap:MatrixGroupName="ahrq_sops_relationships">
+		<Question><TranslatedText>In this office, we treat each other with respect.</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrq_sops_respect.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrq_sops_care" Name="ahrq_sops_care" DataType="text" Length="1" redcap:Variable="ahrq_sops_care" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_relationships">
+		<Question><TranslatedText>This office emphasizes teamwork when taking care of patients.</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrq_sops_care.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrq_sops_help" Name="ahrq_sops_help" DataType="text" Length="1" redcap:Variable="ahrq_sops_help" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_relationships">
+		<Question><TranslatedText>When someone in this office gets really busy, others help out</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrq_sops_help.choices"/>
+	</ItemDef>
+	<ItemDef OID="empower_ideas" Name="empower_ideas" DataType="text" Length="1" redcap:Variable="empower_ideas" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_empowerment">
+		<Question><TranslatedText>We are encouraged to come up with ideas for more efficient ways to do our work.</TranslatedText></Question>
+		<CodeListRef CodeListOID="empower_ideas.choices"/>
+	</ItemDef>
+	<ItemDef OID="empower_involved" Name="empower_involved" DataType="text" Length="1" redcap:Variable="empower_involved" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_empowerment">
+		<Question><TranslatedText>We are involved in making decisions about changes to our work processes.</TranslatedText></Question>
+		<CodeListRef CodeListOID="empower_involved.choices"/>
+	</ItemDef>
+	<ItemDef OID="empower_tryout" Name="empower_tryout" DataType="text" Length="1" redcap:Variable="empower_tryout" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_empowerment">
+		<Question><TranslatedText>We are given opportunities to try out solutions to workflow problems.</TranslatedText></Question>
+		<CodeListRef CodeListOID="empower_tryout.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrq_sops_alternatives" Name="ahrq_sops_alternatives" DataType="text" Length="1" redcap:Variable="ahrq_sops_alternatives" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_empower1">
+		<Question><TranslatedText>Staff are encouraged to express alternative viewpoints in this office</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrq_sops_alternatives.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrs_sops_staff" Name="ahrs_sops_staff" DataType="text" Length="1" redcap:Variable="ahrs_sops_staff" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_workflow">
+		<Question><TranslatedText>We have enough staff to handle our patient load</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrs_sops_staff.choices"/>
+	</ItemDef>
+	<ItemDef OID="ahrs_sops_workflow" Name="ahrs_sops_workflow" DataType="text" Length="1" redcap:Variable="ahrs_sops_workflow" redcap:FieldType="radio" redcap:MatrixGroupName="ahrq_sops_workflow">
+		<Question><TranslatedText>We have problems with workflow in this office</TranslatedText></Question>
+		<CodeListRef CodeListOID="ahrs_sops_workflow.choices"/>
+	</ItemDef>
+	<ItemDef OID="delivery_of_care" Name="delivery_of_care" DataType="text" Length="1" redcap:Variable="delivery_of_care" redcap:FieldType="radio" redcap:MatrixGroupName="nhs_tasks">
+		<Question><TranslatedText>I am able to deliver the care I aspire to.</TranslatedText></Question>
+		<CodeListRef CodeListOID="delivery_of_care.choices"/>
+	</ItemDef>
+	<ItemDef OID="meaningful" Name="meaningful" DataType="text" Length="1" redcap:Variable="meaningful" redcap:FieldType="radio" redcap:MatrixGroupName="nhs_tasks">
+		<Question><TranslatedText>My job activities are personally meaningful to me.</TranslatedText></Question>
+		<CodeListRef CodeListOID="meaningful.choices"/>
+	</ItemDef>
+	<ItemDef OID="management_well_being" Name="management_well_being" DataType="text" Length="1" redcap:Variable="management_well_being" redcap:FieldType="radio" redcap:MatrixGroupName="organization_nhs">
+		<Question><TranslatedText>Management takes a positive interest in my health and well-being.</TranslatedText></Question>
+		<CodeListRef CodeListOID="management_well_being.choices"/>
+	</ItemDef>
+	<ItemDef OID="management_communication" Name="management_communication" DataType="text" Length="1" redcap:Variable="management_communication" redcap:FieldType="radio" redcap:MatrixGroupName="organization_nhs">
+		<Question><TranslatedText>Communication between senior management and staff is effective.</TranslatedText></Question>
+		<CodeListRef CodeListOID="management_communication.choices"/>
+	</ItemDef>
+	<ItemDef OID="gss_rincblls" Name="gss_rincblls" DataType="text" Length="1" redcap:Variable="gss_rincblls" redcap:FieldType="radio" redcap:MatrixGroupName="gss_bills">
+		<Question><TranslatedText>How fair is what you earn on your job in comparison to others doing the same type of work you do?</TranslatedText></Question>
+		<CodeListRef CodeListOID="gss_rincblls.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_recommend" Name="google_manager_recommend" DataType="text" Length="1" redcap:Variable="google_manager_recommend" redcap:FieldType="radio" redcap:SectionHeader="3. About your manager (this section taken directly from Google - feel free to comment or propose drop/add questions) If we use this, we need to verify we are using this for non-profit uses." redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>I would recommend my manager to others.</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_recommend.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_stretch" Name="google_manager_stretch" DataType="text" Length="1" redcap:Variable="google_manager_stretch" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager assigns stretch opportunities to help me develop in my career.</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_stretch.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_clear" Name="google_manager_clear" DataType="text" Length="1" redcap:Variable="google_manager_clear" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager communicates clear goals for our team</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_clear.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager" Name="google_manager" DataType="text" Length="1" redcap:Variable="google_manager" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager gives me actionable feedback on a regular basis</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_autonomy" Name="google_manager_autonomy" DataType="text" Length="1" redcap:Variable="google_manager_autonomy" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager provides the autonomy I need to do my job (i.e., does not &quot;micro-manage&quot; by getting involved in details that should be handled at other levels)</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_autonomy.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_consideration" Name="google_manager_consideration" DataType="text" Length="1" redcap:Variable="google_manager_consideration" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager consistently shows consideration for me as a person</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_consideration.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_priorities" Name="google_manager_priorities" DataType="text" Length="1" redcap:Variable="google_manager_priorities" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager keeps the team focused on priorities, even when it&#039;s difficult (e.g., declining or deprioritizing other projects)</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_priorities.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_shares" Name="google_manager_shares" DataType="text" Length="1" redcap:Variable="google_manager_shares" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager regularly shares relevant information from their manager and senior leadership</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_shares.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_career" Name="google_manager_career" DataType="text" Length="1" redcap:Variable="google_manager_career" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager has had a meaningful discussion with me about my career development in the past six months</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_career.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_exert" Name="google_manager_exert" DataType="text" Length="1" redcap:Variable="google_manager_exert" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager has the technical expertise (e.g., technical judgment in Tech, selling in Sales, accounting in Finance) required to effectively manage me</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_exert.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_voice" Name="google_manager_voice" DataType="text" Length="1" redcap:Variable="google_manager_voice" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>The actions of my manager show they value the perspective I bring to the team, even if it is different from their own</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_voice.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_decisions" Name="google_manager_decisions" DataType="text" Length="1" redcap:Variable="google_manager_decisions" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager makes tough decisions effectively (e.g., decisions involving multiple teams, competing priorities)</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_decisions.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_collaborates" Name="google_manager_collaborates" DataType="text" Length="1" redcap:Variable="google_manager_collaborates" redcap:FieldType="radio" redcap:MatrixGroupName="manager">
+		<Question><TranslatedText>My manager effectively collaborates across boundaries (e.g., team, organizational)</TranslatedText></Question>
+		<CodeListRef CodeListOID="google_manager_collaborates.choices"/>
+	</ItemDef>
+	<ItemDef OID="google_manager_comment_keep" Name="google_manager_comment_keep" DataType="text" Length="999" redcap:Variable="google_manager_comment_keep" redcap:FieldType="textarea">
+		<Question><TranslatedText>What would you recommend your manager keep doing?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="google_manager_comment_change" Name="google_manager_comment_change" DataType="text" Length="999" redcap:Variable="google_manager_comment_change" redcap:FieldType="textarea">
+		<Question><TranslatedText>What would you have your manager change?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="authorities" Name="authorities" DataType="text" Length="999" redcap:Variable="authorities" redcap:FieldType="textarea" redcap:SectionHeader="4 Would you like more control over your work?">
+		<Question><TranslatedText>What decision-making authority, if you were allowed to have, would make your job easier?
+
+This may be day-to-day decisions, or decisions about changes to our workflows</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="authorities_info_need" Name="authorities_info_need" DataType="text" Length="999" redcap:Variable="authorities_info_need" redcap:FieldType="textarea">
+		<Question><TranslatedText>What information will you need, perhaps ongoing, to make these decisions well?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="gender" Name="gender" DataType="text" Length="1" redcap:Variable="gender" redcap:FieldType="radio" redcap:FieldNote="We are asking this question because prior studies suggest burnout occurs more frequently in the female workforce. " redcap:SectionHeader="Please tell us about yourself:">
+		<Question><TranslatedText>What gender do you identify with?</TranslatedText></Question>
+		<CodeListRef CodeListOID="gender.choices"/>
+	</ItemDef>
+	<ItemDef OID="face_to_face" Name="face_to_face" DataType="text" Length="1" redcap:Variable="face_to_face" redcap:FieldType="radio">
+		<Question><TranslatedText>Do you have face-to-face contact with patients as part of your job?</TranslatedText></Question>
+		<CodeListRef CodeListOID="face_to_face.choices"/>
+	</ItemDef>
+	<ItemDef OID="practitioner" Name="practitioner" DataType="boolean" Length="1" redcap:Variable="practitioner" redcap:FieldType="yesno" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Are you a healthcare practitioner (physician, PA, NP)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="practitioner.choices"/>
+	</ItemDef>
+	<ItemDef OID="clinic" Name="clinic" DataType="text" Length="1" redcap:Variable="clinic" redcap:FieldType="radio">
+		<Question><TranslatedText>At which site  are you employed?</TranslatedText></Question>
+		<CodeListRef CodeListOID="clinic.choices"/>
+	</ItemDef>
+	<ItemDef OID="position" Name="position" DataType="text" Length="1" redcap:Variable="position" redcap:FieldType="radio">
+		<Question><TranslatedText>Are you</TranslatedText></Question>
+		<CodeListRef CodeListOID="position.choices"/>
+	</ItemDef>
+	<ItemDef OID="other_site" Name="other_site" DataType="text" Length="999" redcap:Variable="other_site" redcap:FieldType="text">
+		<Question><TranslatedText>If you answered &#039;other&#039; above, please name.&amp;nbsp;</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;If you answered &#039;other&#039; above, please name.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="our_worksite_states_and_immediate_antecedents_complete" Name="our_worksite_states_and_immediate_antecedents_complete" DataType="text" Length="1" redcap:Variable="our_worksite_states_and_immediate_antecedents_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="our_worksite_states_and_immediate_antecedents_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="current_burnout.choices" Name="current_burnout" DataType="text" redcap:Variable="current_burnout">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>I enjoy my work. I have no symptoms of burnout.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>I am under stress, and don&#039;t always have as much energy as I did, but I don&#039;t feel burned out.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>I am definitely burnt out and have one or more symptoms of burnout, e.g., emotional exhaustion.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>The symptoms of burnout that I am experiencing won&#039;t go away. I think about work frustrations a lot.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>I feel completely burned out. I am at the point where I may need to seek help.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="job.choices" Name="job" DataType="text" redcap:Variable="job">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Never</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Rarely</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Sometimes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Often</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Always</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="enthusiasm.choices" Name="enthusiasm" DataType="text" redcap:Variable="enthusiasm">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Never</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Rarely</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Sometimes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Often</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Always</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="time.choices" Name="time" DataType="text" redcap:Variable="time">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Never</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Rarely</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Sometimes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Often</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Always</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="gss_satisfaction.choices" Name="gss_satisfaction" DataType="text" redcap:Variable="gss_satisfaction">
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Very satisfied</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Somewhat satisfied</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Not too satisfied</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all satisfied</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Don&#039;t know</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="proactive.choices" Name="proactive" DataType="text" redcap:Variable="proactive">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="recommend_employer.choices" Name="recommend_employer" DataType="text" redcap:Variable="recommend_employer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="leykum_learning_from_peers.choices" Name="leykum_learning_from_peers" DataType="text" redcap:Variable="leykum_learning_from_peers">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="baldrige_learning_from_employer.choices" Name="baldrige_learning_from_employer" DataType="text" redcap:Variable="baldrige_learning_from_employer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrq_sops_onboard_training.choices" Name="ahrq_sops_onboard_training" DataType="text" redcap:Variable="ahrq_sops_onboard_training">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrq_sops_prn_training.choices" Name="ahrq_sops_prn_training" DataType="text" redcap:Variable="ahrq_sops_prn_training">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="bradley_external.choices" Name="bradley_external" DataType="text" redcap:Variable="bradley_external">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrq_sops_respect.choices" Name="ahrq_sops_respect" DataType="text" redcap:Variable="ahrq_sops_respect">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neither Agree or Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrq_sops_care.choices" Name="ahrq_sops_care" DataType="text" redcap:Variable="ahrq_sops_care">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neither Agree or Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrq_sops_help.choices" Name="ahrq_sops_help" DataType="text" redcap:Variable="ahrq_sops_help">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neither Agree or Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="empower_ideas.choices" Name="empower_ideas" DataType="text" redcap:Variable="empower_ideas">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="empower_involved.choices" Name="empower_involved" DataType="text" redcap:Variable="empower_involved">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="empower_tryout.choices" Name="empower_tryout" DataType="text" redcap:Variable="empower_tryout">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrq_sops_alternatives.choices" Name="ahrq_sops_alternatives" DataType="text" redcap:Variable="ahrq_sops_alternatives">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Never</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Rarely</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Sometimes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Often</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Always</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrs_sops_staff.choices" Name="ahrs_sops_staff" DataType="text" redcap:Variable="ahrs_sops_staff">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neither Agree or Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ahrs_sops_workflow.choices" Name="ahrs_sops_workflow" DataType="text" redcap:Variable="ahrs_sops_workflow">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neither Agree or Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="delivery_of_care.choices" Name="delivery_of_care" DataType="text" redcap:Variable="delivery_of_care">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="meaningful.choices" Name="meaningful" DataType="text" redcap:Variable="meaningful">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="management_well_being.choices" Name="management_well_being" DataType="text" redcap:Variable="management_well_being">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="management_communication.choices" Name="management_communication" DataType="text" redcap:Variable="management_communication">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="gss_rincblls.choices" Name="gss_rincblls" DataType="text" redcap:Variable="gss_rincblls">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Do not Know/Cannot Choose</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Much less than you deserve</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Somewhat less than you deserve</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>About as much as you deserve</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Somewhat more than you deserve</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Much more than you deserve</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_recommend.choices" Name="google_manager_recommend" DataType="text" redcap:Variable="google_manager_recommend">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_stretch.choices" Name="google_manager_stretch" DataType="text" redcap:Variable="google_manager_stretch">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_clear.choices" Name="google_manager_clear" DataType="text" redcap:Variable="google_manager_clear">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager.choices" Name="google_manager" DataType="text" redcap:Variable="google_manager">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_autonomy.choices" Name="google_manager_autonomy" DataType="text" redcap:Variable="google_manager_autonomy">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_consideration.choices" Name="google_manager_consideration" DataType="text" redcap:Variable="google_manager_consideration">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_priorities.choices" Name="google_manager_priorities" DataType="text" redcap:Variable="google_manager_priorities">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_shares.choices" Name="google_manager_shares" DataType="text" redcap:Variable="google_manager_shares">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_career.choices" Name="google_manager_career" DataType="text" redcap:Variable="google_manager_career">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_exert.choices" Name="google_manager_exert" DataType="text" redcap:Variable="google_manager_exert">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_voice.choices" Name="google_manager_voice" DataType="text" redcap:Variable="google_manager_voice">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_decisions.choices" Name="google_manager_decisions" DataType="text" redcap:Variable="google_manager_decisions">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="google_manager_collaborates.choices" Name="google_manager_collaborates" DataType="text" redcap:Variable="google_manager_collaborates">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Strongly agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Agree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Neutral</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Disagree</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Strongly disagree</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="gender.choices" Name="gender" DataType="text" redcap:Variable="gender">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Male</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Female</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="face_to_face.choices" Name="face_to_face" DataType="text" redcap:Variable="face_to_face">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Frequently</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Occasionally</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="practitioner.choices" Name="practitioner" DataType="boolean" redcap:Variable="practitioner">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="clinic.choices" Name="clinic" DataType="text" redcap:Variable="clinic">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>CHC Internal Medicine (residency or faculty clinic)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>KU Pediatrics</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>KU Psychiatry</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>KU Wichita Gastroenterology</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Midtown</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>MPA Admin</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="position.choices" Name="position" DataType="text" redcap:Variable="position">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Faculty physician</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Resident or fellow physician in training</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Other clinical provider</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Other clinical staff (Nurse/MA/other)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Other staff</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="our_worksite_states_and_immediate_antecedents_complete.choices" Name="our_worksite_states_and_immediate_antecedents_complete" DataType="text" redcap:Variable="our_worksite_states_and_immediate_antecedents_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
